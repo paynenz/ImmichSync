@@ -1,7 +1,8 @@
 ###############################################################################
-# Set default behavior to automatically normalize line endings.
+# Normalize text in Git and use Windows line endings in the working tree.
 ###############################################################################
-* text=auto
+* text=auto eol=crlf
+*.ico binary
 
 ###############################################################################
 # Set default behavior for command prompt diff.
